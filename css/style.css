@@ -105,6 +105,14 @@ select:focus {
 }
 
 
+/************** ZIPCODE **************/
+
+input[id="zipcode"] {
+    width: 50%;
+    display: block;
+}
+
+
 /************** RADIO AND CHECKBOXES **************/
 
 input[type="radio"],
@@ -197,5 +205,9 @@ footer p {
     select {
         display: inline-block;
         width: 70%;
+    }
+    /********* ZIPCODE *********/
+    input[id="zipcode"] {
+        width: 25%;
     }
 }
